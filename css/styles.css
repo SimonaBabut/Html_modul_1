@@ -1,0 +1,105 @@
+:root {
+  --primary-color: #ff6c00;
+  --text-white: #ffffff;
+  --primary-blue: blue;
+  --primary-gray-60: #9da4bd99;
+  --primary-gray: #9DA4BD;
+  --text-grey:#303030;
+
+
+
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.header-link {
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.34px;
+  letter-spacing: 0.1em;
+  color: var(--text-white);
+}
+.header-link-active,
+.header-link:hover {
+  color: var(--primary-color);
+}
+
+.main-header {
+  background-color: var(--primary-blue);
+}
+- .primary-button {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.34px;
+  letter-spacing: 0.09em;
+  color: var(--text-white);
+  cursor: pointer;
+}
+
+.hero-section {
+  background-color: aqua;
+}
+
+.hero-subtitle {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14.98px;
+  letter-spacing: 0.1em;
+  color: var(--primary-gray-60);
+}
+.hero-title {
+  font-family: "Raleway", "Open Sans", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84.53px;
+  letter-spacing: 0.05em;
+  color: var(--text-white);
+}
+.hero-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: var(--primary-gray);
+     
+}
+.text-grey {
+  color: var(--text-grey)
+}
+.button.text-grey {
+  color: var(--text-grey)
+}
+
+.section-subtitle  {
+font-size: 11px;
+font-weight: 600;
+line-height: 14.98px;
+letter-spacing: 0.1em;
+}
+
+.section-title {
+  font-family: "Raleway", "Open Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 49.31px;
+  letter-spacing: 0.05em;
+}
+
+.section-description {
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.02em;
+
+}
+
+.section-paragraph {
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.02em; 
+}
+
+
