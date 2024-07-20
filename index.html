@@ -27,37 +27,44 @@
   </head>
   <body>
     <header class="main-header">
-      <nav class="header-nav">
-        <a href="index.html" class="logo">
-          <img
-            src="images/barbershop-logo.png"
-            alt="Barbershop logo"
-            width="68"
-            height="55"
-          />
-        </a>
+      <div class="header-container container">
+        <nav class="header-nav">
+          <a href="index.html" class="logo">
+            <img
+              src="images/barbershop-logo.png"
+              alt="Barbershop logo"
+              width="68"
+              height="55"
+            />
+          </a>
 
-        <ul class="header-list">
-          <li class="header-item">
-            <a href="" class="header-link header-link-active">About</a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link">Services and Prices</a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link">Barbers</a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <a href="tel:+380441111111" class="header-link">+38 044 111 11 11</a>
-      <button class="primary-button">Book a Service</button>
+          <ul class="header-list list">
+            <li class="header-item">
+              <a href="" class="header-link header-link-active link">About</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link link">Services and Prices</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link link">Barbers</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header-address" >
+          <a href="tel:+380441111111" class="header-link link"
+            >+38 044 111 11 11</a
+          >
+          <button class="primary-button">Book a Service</button>
+        </address>
+      </div>
     </header>
 
     <main>
-      <section class="hero-section">
+      <section class="hero-section section">
+        <div class="container"></div>
         <hr />
         <span class="hero-subtitle"
           ><img src="images/linie-orizontala.png" alt="Horizontal line" />A hair
@@ -69,121 +76,138 @@
           and tastefully.
         </p>
       </section>
-      <section class="about-section">
-        <img
-          src="images/about-image-1.png"
-          alt="First service"
-          width="270"
-          height="445"
-        />
-        <img
-          src="images/about-img-2.png"
-          alt="Second service"
-          width="270"
-          height="445"
-        />
+      <!-- About section -->
+      <section class="about-section section">
+        <div class="about-container container">
+          <div class="about-images-container">
+          <img
+            src="images/about-image-1.png"
+            alt="First service"
+            width="270"
+            height="445"
+          />
+          <img
+            src="images/about-img-2.png"
+            alt="Second service"
+            width="270"
+            height="445"
+          />
+        </div>
+        <div class="about-text-container">
+          <span class="section-subtitle text-grey"
+            ><img
+              src="images/linie-orizontala.png"
+              alt="Horizontal line"
+            />ABOUT
+          </span>
 
-        <span class="section-subtitle text-grey"
-          ><img src="images/linie-orizontala.png" alt="Horizontal line" />ABOUT
-        </span>
+          <h1 class="section-title">The Best Barbershop in Your City</h1>
 
-        <h1 class="section-title">The Best Barbershop in Your City</h1>
-
-        <h3 class="section-description">
-          If you want to add more confidence to your image, you are definitely
-          in the right place.
-        </h3>
-        <p class="section-paragraph">
-          We are a team that never rests on its laurels and yearns for change.
-          And once you fall into the hands of our master, you will never be the
-          same again. We are a team that is always on the same wavelength with
-          clients. Therefore, we are always ready to improve everyone who comes
-          to us!
-        </p>
-        <button class="primary-button text-gray">Book a service</button>
+          <h3 class="section-description">
+            If you want to add more confidence to your image, you are definitely
+            in the right place.
+          </h3>
+          <p class="section-paragraph">
+            We are a team that never rests on its laurels and yearns for change.
+            And once you fall into the hands of our master, you will never be
+            the same again. We are a team that is always on the same wavelength
+            with clients. Therefore, we are always ready to improve everyone who
+            comes to us!
+          </p>
+          <button class="primary-button text-gray">Book a service</button>
+        </div>
+        </div>
       </section>
-      <section class="services-section">
-        <span class="section-subtitle">
-          <img src="images/linie-orizontala.png" alt="Horizontal line" /> Spend
-          time in the company of the best craftsmen
-        </span>
-        <h2 class="section-title">Services and Prices</h2>
-        <ul>
-          <li><span>Men's Haircut</span> <span>from 300 UAH </span></li>
-          <li><span>Beard Trim </span><span>from 200 UAH</span></li>
-          <li><span>Mustache Trim </span><span>from 200 UAH</span></li>
-          <li><span>Straight Razor Shave </span><span>from 200 UAH</span></li>
-        </ul>
-        <ul>
-          <li><span>Trainee Haircut </span><span>from 50 UAH</span></li>
-          <li><span>Buzz Cut </span><span>from 200 UAH </span></li>
-          <li>
-            <span>Kids Haircut (&lt;12 y.o.) from 300 UAH </span
-            ><span>from 300 UAH</span>
-          </li>
-          <li><span>Gray Coverage </span><span> from 200 UAH</span></li>
-        </ul>
+      <section class="services-section section">
+        <div class="container">
+          <span class="section-subtitle">
+            <img src="images/linie-orizontala.png" alt="Horizontal line" />
+            Spend time in the company of the best craftsmen
+          </span>
+          <h2 class="section-title">Services and Prices</h2>
+          <ul>
+            <li><span>Men's Haircut</span> <span>from 300 UAH </span></li>
+            <li><span>Beard Trim </span><span>from 200 UAH</span></li>
+            <li><span>Mustache Trim </span><span>from 200 UAH</span></li>
+            <li><span>Straight Razor Shave </span><span>from 200 UAH</span></li>
+          </ul>
+          <ul>
+            <li><span>Trainee Haircut </span><span>from 50 UAH</span></li>
+            <li><span>Buzz Cut </span><span>from 200 UAH </span></li>
+            <li>
+              <span>Kids Haircut (&lt;12 y.o.) from 300 UAH </span
+              ><span>from 300 UAH</span>
+            </li>
+            <li><span>Gray Coverage </span><span> from 200 UAH</span></li>
+          </ul>
 
-        <button type="button">Book a Service</button>
+          <button type="button">Book a Service</button>
+        </div>
       </section>
-      <section>
-        <ul>
-          <li>600 <sup>+</sup></li>
-          <li>50 <sup>+</sup></li>
-          <li>20 <sup>+</sup></li>
-          <li>100 <sup>+</sup></li>
-        </ul>
-        <span
-          ><img src="images/linie-orizontala.png" alt="Horizontal line" />Old
-          school</span
-        >
-        <h2>Why do they come to us?</h2>
-        <p>
-          Only good things are said about us. But it is better to see and feel 1
-          time than to read 10 times.
-        </p>
+      <section class="section">
+        <div class="container">
+          <ul>
+            <li>600 <sup>+</sup></li>
+            <li>50 <sup>+</sup></li>
+            <li>20 <sup>+</sup></li>
+            <li>100 <sup>+</sup></li>
+          </ul>
+          <span
+            ><img src="images/linie-orizontala.png" alt="Horizontal line" />Old
+            school</span
+          >
+          <h2>Why do they come to us?</h2>
+          <p>
+            Only good things are said about us. But it is better to see and feel
+            1 time than to read 10 times.
+          </p>
+        </div>
       </section>
-      <section>
-        <span
-          ><img src="images/linie-orizontala.png" alt="Horizontal line" />for
-          true connoisseurs of the atmosphere</span
-        >
-        <h2>Our Barbers</h2>
-        <ul>
-          <li>
-            <img
-              src="images/John Smith.png"
-              alt="Photo Barber John Smith"
-              width="300"
-              height="346"
-            />
-            <h4>John Smith</h4>
-            <p>Extreme barber</p>
-          </li>
+      <section class="section">
+        <div class="container">
+          <span
+            ><img src="images/linie-orizontala.png" alt="Horizontal line" />for
+            true connoisseurs of the atmosphere</span
+          >
+          <h2>Our Barbers</h2>
+          <ul>
+            <li>
+              <img
+                src="images/John Smith.png"
+                alt="Photo Barber John Smith"
+                width="300"
+                height="346"
+              />
+              <h4>John Smith</h4>
+              <p>Extreme barber</p>
+            </li>
 
-          <li>
-            <img
-              src="images/Michele Doe.png"
-              alt="Photo Barber Michele Doe"
-              width="300"
-              height="346"
-            />
-            <h4>Michele Doe</h4>
-            <p>Extreme barber</p>
-          </li>
-          <li>
-            <img
-              src="images/Alan Black.png"
-              alt="Photo Barber Alan Black"
-              width="300"
-              height="346"
-            />
-            <h4>Alan Black</h4>
-            <p>Extreme barber</p>
-          </li>
-        </ul>
+            <li>
+              <img
+                src="images/Michele Doe.png"
+                alt="Photo Barber Michele Doe"
+                width="300"
+                height="346"
+              />
+              <h4>Michele Doe</h4>
+              <p>Extreme barber</p>
+            </li>
+            <li>
+              <img
+                src="images/Alan Black.png"
+                alt="Photo Barber Alan Black"
+                width="300"
+                height="346"
+              />
+              <h4>Alan Black</h4>
+              <p>Extreme barber</p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
+
+      <section class="section">
+        <div class="container">
         <span
           ><img src="images/linie-orizontala.png" alt="Horizontal line" />In
           Latin, "barba" means "beard"
@@ -192,21 +216,28 @@
         <li><img src="images/shave-service.png" alt="" /></li>
         <li><img src="images/massage-service.png" alt="" /></li>
         <li><img src="images/fade-service.png" alt="" /></li>
+      </div>
       </section>
-      <section>
+      <section class="section">
+        <div class="container"></div>
         <h2>Contacts</h2>
         <address>
           Main Street, 7A Kyiv, 08132 <br />
+
           +38 044 111 11 11 <br />
+
           barbershop@email.com <br />
         </address>
+      </div>
       </section>
     </main>
 
     <footer>
-      <span> Copyright 2022 </span>
+      <div class="container">
+      <span>Copyright 2022 </span>
       <span>Instagram</span>
       <span>Youtube</span>
+    </div>
     </footer>
   </body>
 </html>
