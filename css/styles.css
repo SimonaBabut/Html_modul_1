@@ -59,10 +59,72 @@ body {
   padding-bottom: 130px;
 }
 
+.header-main-container {
+  display: flex;
+}
+
+.global-aside {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  justify-content: space-between;
+  padding: 32px 30px 40px 55px;
+}
+
+.global-aside-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.social-link {
+  color: var(--text-grey);
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.2em;
+  position: relative;
+  transform: rotate(270deg);
+  
+}
+
+.social-link::after {
+  content: "";
+  position: absolute;
+  right: -5px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background-color: var(--primary-color);
+}
+
 .header-container {
   padding: 40px 55px;
   display: flex;
   justify-content: space-between;
+}
+
+.header-container-content {
+flex: 1;
+background-color: #191c2633;
+background-image: url("../images/hero-slider-img-1.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.barber-social-links{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.barber-social-link {
+  padding: 12px;
+  border-radius: 100%;
+  background-color: var(--text-white);
+  display: inline-flex;
+
 }
 
 .header-nav {
@@ -161,18 +223,17 @@ body {
 }
 
 .services-section {
-  background: url('../images/services-bg-image.png') #111319;
+  background: url("../images/services-bg-image.png") #111319;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .contavt-section {
-  background: url('../images/contact-bg-image.png') #191C26;
+  background: url("../images/contact-bg-image.png") #191c26;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 
 /* .text-grey {

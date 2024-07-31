@@ -26,58 +26,69 @@
     <title>Modul 1 Html</title>
   </head>
   <body>
-    <header class="main-header">
-      <div class="header-container container">
-        <nav class="header-nav">
-          <a href="index.html" class="logo">
-            <img
-              src="images/barbershop-logo.png"
-              alt="Barbershop logo"
-              width="68"
-              height="55"
-            />
-          </a>
-
-          <ul class="header-list list">
-            <li class="header-item">
-              <a href="" class="header-link header-link-active link">About</a>
-            </li>
-            <li class="header-item">
-              <a href="" class="header-link link">Services and Prices</a>
-            </li>
-            <li class="header-item">
-              <a href="" class="header-link link">Barbers</a>
-            </li>
-            <li class="header-item">
-              <a href="" class="header-link link">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="header-address">
-          <a href="tel:+380441111111" class="header-link link"
-            >+38 044 111 11 11</a
-          >
-          <button class="primary-button">Book a Service</button>
-        </address>
-      </div>
-    </header>
-
-    <main>
-      <section class="hero-section section">
-        <div class="container">
-          <hr />
-          <span class="hero-subtitle"
-            ><img src="images/linie-orizontala.png" alt="Horizontal line" />A
-            hair salon for man in Kyiv</span
-          >
-          <h1 class="hero-title">Barbershop</h1>
-          <p class="hero-description">
-            We are experts in trendy men's haircuts. We work quickly, carefully,
-            and tastefully.
-          </p>
+    <div class="header-main-container container">
+      <aside class="global-aside">
+        <a href="index.html" class="logo">
+          <img
+            src="images/barbershop-logo.png"
+            alt="Barbershop logo"
+            width="68"
+            height="55"
+          />
+        </a>
+        <div class="global-aside-links">
+          <a href="#" class="social-link">YouTube</a>
+          <a href="#" class="social-link">Instagram</a>
         </div>
-      </section>
-      <!-- About section -->
+      </aside>
+      <div class="header-container-content">
+        <header class="main-header">
+          <div class="header-container container">
+            <nav class="header-nav">
+              <ul class="header-list list">
+                <li class="header-item">
+                  <a href="" class="header-link header-link-active link"
+                    >About</a
+                  >
+                </li>
+                <li class="header-item">
+                  <a href="" class="header-link link">Services and Prices</a>
+                </li>
+                <li class="header-item">
+                  <a href="" class="header-link link">Barbers</a>
+                </li>
+                <li class="header-item">
+                  <a href="" class="header-link link">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+            <address class="header-address">
+              <a href="tel:+380441111111" class="header-link link"
+                >+38 044 111 11 11</a
+              >
+              <button class="primary-button">Book a Service</button>
+            </address>
+          </div>
+        </header>
+
+        <section class="hero-section section">
+          <div class="container">
+            <div class="section-subtitle-container">
+              <hr />
+              <span class="hero-subtitle">A hair salon for man in Kyiv</span>
+            </div>
+            <h1 class="hero-title">Barbershop</h1>
+            <p class="hero-description">
+              We are experts in trendy men's haircuts. We work quickly,
+              carefully, and tastefully.
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- About section -->
+    <main>
       <section class="about-section section">
         <div class="about-container container">
           <div class="about-images-container">
@@ -179,8 +190,30 @@
                 width="300"
                 height="346"
               />
-              <h4>John Smith</h4>
-              <p>Extreme barber</p>
+              <h4 class="barber-name">John Smith</h4>
+              <p class="barber-description">Extreme barber</p>
+              <div class="barber-social-links">
+                <a href="#" class="barber-social-link">
+                  <svg width="20px" height="20px">
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+                <a href="#" class="barber-social-link">
+                <svg width="20px" height="20px">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+              <a href="#" class="barber-social-link"></a>
+                <svg width="20px" height="20px">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+                <a href="#" class="barber-social-link"></a>
+              </a>
+                <svg width="20px" height="20px">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+              </div>
             </li>
 
             <li>
@@ -190,22 +223,63 @@
                 width="300"
                 height="346"
               />
-              <h4>Michele Doe</h4>
-              <p>Extreme barber</p>
+              <h4 class="barber-name">Michele Doe</h4>
+              <p class="barber-description">Extreme barber</p>
+              <div class="barber-social-links">
+                <a href="#" class="barber-social-link">
+                  <svg width="20px" height="20px">
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+                <a href="#" class="barber-social-link">
+                <svg width="20px" height="20px">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+              <a href="#" class="barber-social-link"></a>
+                <svg width="20px" height="20px">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+                <a href="#" class="barber-social-link"></a>
+              </a>
+                <svg width="20px" height="20px">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+              </div>
             </li>
-            <li>
+            <li class="barber-card">
               <img
                 src="images/Alan Black.png"
                 alt="Photo Barber Alan Black"
                 width="300"
                 height="346"
               />
-              <h4>Alan Black</h4>
-              <p>Extreme barber</p>
-              <img src="./images/linkedin-icon.svg" alt="" />
-              <svg width="16px" height="16px">
-                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-              </svg>
+              <h4 class="barber-name">Alan Black</h4>
+              <p class="barber-description">Extreme barber</p>
+              <!-- <img src="./images/linkedin-icon.svg" alt="" /> -->
+              <div class="barber-social-links">
+                <a href="#" class="barber-social-link">
+                  <svg width="20px" height="20px">
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+                <a href="#" class="barber-social-link">
+                <svg width="20px" height="20px">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+              <a href="#" class="barber-social-link"></a>
+                <svg width="20px" height="20px">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+                <a href="#" class="barber-social-link"></a>
+              </a>
+                <svg width="20px" height="20px">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+              </div>
             </li>
           </ul>
         </div>
